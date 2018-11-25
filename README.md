@@ -1,6 +1,6 @@
 # Helm k8s
 
-for deployments to via [Helm](https://github.com/kubernetes/helm) package manager.
+for CI/CD pipelines (GitLab-CI, Jenkins) via [Helm](https://github.com/kubernetes/helm) package manager.
 
 ### Utilities
 This Alpine image has the following tools installed:
