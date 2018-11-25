@@ -1,5 +1,6 @@
 #!/bin/bash
+docker build -t davarski/k8s-helm:latest .
+docker push davarski/k8s-helm:latest
 
-docker build --build-arg VCS_REF=`git rev-parse --short HEAD` \
-             --build-arg BUILD_DATE=`date -u +'%Y-%m-%d'` \
-             -t davarski/k8s-helm:`git describe --abbrev=0 --tags` .
+#docker build -t davarski/k8s-helm:`git rev-parse --short HEAD` .
+
