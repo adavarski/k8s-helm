@@ -10,4 +10,5 @@ This Alpine image has the following tools installed:
 these are required to deploy to k8s using Helm.
 
 docker build -t davarski/k8s-helm:latest .
+
 docker push davarski/k8s-helm:latest
