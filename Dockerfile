@@ -4,7 +4,7 @@ MAINTAINER Anastas Davarski
 # https://aur.archlinux.org/packages/kubectl-bin/
 ARG KUBECTL_VERSION=v1.9.1
 # https://github.com/kubernetes/helm/releases
-ARG HELM_VERSION=v2.7.2
+ARG HELM_VERSION=v2.11.0
 
 # install dependencies
 RUN apk add --no-cache ca-certificates tar wget openssl python bash
