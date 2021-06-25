@@ -1,5 +1,5 @@
 FROM alpine:3.7
-MAINTAINER Anastas Davarski
+MAINTAINER A.Davarski
 
 # https://aur.archlinux.org/packages/kubectl-bin/
 ARG KUBECTL_VERSION=v1.9.1
